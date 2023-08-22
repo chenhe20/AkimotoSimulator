@@ -37,6 +37,9 @@ class SlideshowFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        // simulate my work branch
+        // work branch feature 1
+
         _binding = null
     }
 }

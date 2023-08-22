@@ -1,4 +1,4 @@
-package com.hechen.akimotosimulator.ui.slideshow
+package com.hechen.akimotosimulator.ui.slides
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.hechen.akimotosimulator.databinding.FragmentSlideshowBinding
+import com.hechen.akimotosimulator.ui.slideshow.SlideshowViewModel
 
 class SlideshowFragment : Fragment() {
 
@@ -32,6 +33,8 @@ class SlideshowFragment : Fragment() {
         slideshowViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+        // work simulation
+        // change from master
         return root
     }
 
